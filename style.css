@@ -1,1 +1,11 @@
+.screen {
+    height: 20px;
+    width: 180px;
+    border-style: groove;
+}
 
+.calc {
+
+    top: 200px;
+    left: 200px;
+}
