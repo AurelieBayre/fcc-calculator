@@ -2,6 +2,7 @@
 
 <html>
 <head>
+    <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
   Calculator
@@ -12,7 +13,10 @@
 
 <body>
     <div class="container calc">
-    <div class="screen"></div>
+            <p id="demo">Click me.</p>
+    <div id="show" class="screen">
+        
+    </div>
 <table>
     <tr>
         <td><button type="button" class="btn btn-primary">+</button></td>
@@ -22,22 +26,22 @@
     </tr>    
     
     <tr>
-        <td><button type="button" class="btn btn-light">1</button></td>
-        <td><button type="button" class="btn btn-light">2</button></td>
-        <td><button type="button" class="btn btn-light">3</button></td>
+        <td><button id="one" type="button" class="btn btn-light">1</button></td>
+        <td><button id="two" type="button" class="btn btn-light">2</button></td>
+        <td><button id="three" type="button" class="btn btn-light">3</button></td>
         <td><button type="button" class="btn btn-secondary">AC</button></td>
     </tr>
     <tr>
-        <td><button type="button" class="btn btn-light">4</button></td>
-        <td><button type="button" class="btn btn-light">5</button></td>
-        <td><button type="button" class="btn btn-light">6</button></td>
+        <td><button id="four" type="button" class="btn btn-light">4</button></td>
+        <td><button id="five" type="button" class="btn btn-light">5</button></td>
+        <td><button id="six" type="button" class="btn btn-light">6</button></td>
         <td><button type="button" class="btn btn-secondary">.</button></td>
     </tr>
     <tr>
-        <td><button type="button" class="btn btn-light">7</button></td>
-        <td><button type="button" class="btn btn-light">8</button></td>
-        <td><button type="button" class="btn btn-light">9</button></td>
-        <td><button type="button" class="btn btn-light">0</button></td>
+        <td><button id="seven" type="button" class="btn btn-light">7</button></td>
+        <td><button id="eight" type="button" class="btn btn-light">8</button></td>
+        <td><button id="nine" type="button" class="btn btn-light">9</button></td>
+        <td><button id="zero" type="button" class="btn btn-light">0</button></td>
     </tr>
 </table>
 </div>

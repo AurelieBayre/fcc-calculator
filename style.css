@@ -1,7 +1,9 @@
 .screen {
-    height: 20px;
+    height: 60px;
     width: 180px;
     border-style: groove;
+    background-color: #bbbbbb;
+    color: black;
 }
 
 .calc {
