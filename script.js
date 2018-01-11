@@ -77,7 +77,7 @@ function clickDivide() {
 
 document.getElementById("equal").onclick = function() {clickEqual()};
 function clickEqual() {
-    result = "ab34+c5d4*1".replace(/([a-z])/gi, "");
+    result = result.replace(/([a-z])/gi, "");
     let printResult = eval(result);
     //console.log(result, printResult);
     document.getElementById("show").innerHTML = "=" + printResult;
