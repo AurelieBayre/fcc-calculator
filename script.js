@@ -38,7 +38,11 @@ function clickNine() {
 }
 
 document.getElementById("zero").onclick = function() {clickZero()};
-
 function clickZero() {
     document.getElementById("show").innerHTML = "0";
+}
+
+document.getElementById("add").onclick = function() {clickAdd()};
+function clickAdd() {
+    document.getElementById("show").innerHTML = "+";
 }
