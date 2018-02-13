@@ -80,7 +80,7 @@ function clickEqual() {
     result = result.replace(/([a-z])/gi, "");
     let printResult = eval(result);
     //console.log(result, printResult);
-    document.getElementById("show").innerHTML = "=" + printResult;
+    document.getElementById("show").innerHTML = "= " + printResult;
     
 }
 document.getElementById("ac").onclick = function() {clickAC()};
